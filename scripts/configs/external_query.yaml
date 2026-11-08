@@ -1,0 +1,17 @@
+profile: matched_control
+input_mode: mapped
+control_mode: atlas_reference
+obs_constants:
+  L1_Macro: External query
+paths:
+  atlas_h5ad: ../../resources/hnka/atlas.h5ad
+  mapped_h5ad: ../../outputs/external_query_mapped.h5ad
+  query_h5ad: ../../data/query.h5ad
+  model_dir: ../../resources/hnka/model
+  reference_dir: ../../resources/hnka/reference
+  output_dir: ../../outputs/exceedance
+matched_control:
+  analysis_axis_key: L1_Macro
+  analysis_control_label: Normal
+  analysis_case_groups: [External query]
+  source_k: 10

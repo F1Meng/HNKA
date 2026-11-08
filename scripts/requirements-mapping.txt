@@ -1,0 +1,18 @@
+-r requirements.txt
+setuptools==80.9.0
+torch==2.4.0
+scarches==0.6.1
+scvi-tools==1.1.6.post2
+scanpy==1.10.2
+jax==0.4.27
+jaxlib==0.4.27
+flax==0.8.5
+optax==0.2.2
+chex==0.1.86
+orbax-checkpoint==0.4.4
+numpyro==0.15.1
+lightning==2.0.9.post0
+pytorch-lightning==2.3.3
+torchmetrics==1.4.0.post0
+mudata==0.2.4
+muon==0.1.6

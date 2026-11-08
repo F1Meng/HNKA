@@ -1,0 +1,43 @@
+cff-version: 1.2.0
+message: "If you use HNKA, please cite the preprint in preferred-citation."
+type: software
+title: "HNKA: Human NK-cell Atlas"
+authors:
+  - family-names: Meng
+    given-names: Fanyi
+version: 0.1.0
+date-released: "2026-11-03"
+license: MIT
+repository-code: "https://github.com/F1Meng/HNKA"
+url: "https://github.com/F1Meng/HNKA"
+keywords:
+  - natural killer cells
+  - single-cell analysis
+  - reference mapping
+  - exceedance
+  - NKceiver
+preferred-citation:
+  type: article
+  status: preprint
+  title: "Disease-associated NK-cell state remodeling reveals transcriptional profiles predictive of clinical phenotypes"
+  authors:
+    - family-names: Meng
+      given-names: Fanyi
+    - family-names: Lin
+      given-names: Peiran
+    - family-names: Zhang
+      given-names: Shunjie
+    - family-names: Li
+      given-names: Tianhao
+    - family-names: Liu
+      given-names: Zili
+    - family-names: Ye
+      given-names: Peng
+    - family-names: Zhong
+      given-names: Chao
+    - family-names: Zhou
+      given-names: Yuan
+  journal: bioRxiv
+  year: 2026
+  doi: "10.64898/2026.10.22.760478"
+  url: "https://doi.org/10.64898/2026.10.22.760478"

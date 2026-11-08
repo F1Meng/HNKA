@@ -1,0 +1,10 @@
+numpy==1.26.4
+pandas==1.5.3
+scipy==1.13.1
+scikit-learn==1.5.1
+anndata==0.10.8
+h5py>=3.9,<4
+pynndescent==0.5.13
+numba==0.60.0
+PyYAML>=6,<7
+matplotlib==3.9.4

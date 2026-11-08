@@ -1,0 +1,29 @@
+profile: perturbation_control
+input_mode: mapped
+control_mode: internal
+by_perturbation: true
+paths:
+  atlas_h5ad: ../../resources/hnka/atlas.h5ad
+  mapped_h5ad: ../../outputs/perturbation_mapped.h5ad
+  query_h5ad: ../../data/query.h5ad
+  model_dir: ../../resources/hnka/model
+  output_dir: ../../outputs/perturbation
+perturbation_control:
+  neighbor_backend: pynndescent
+  healthy_reference:
+    k: 30
+    query_key: query
+    query_value: 0
+  healthy_timepoint_reference:
+    min_control_cells: 20
+    min_control_donors: 2
+  design:
+    timepoint_key: timepoint_label
+    min_cells_per_sample_unit: 20
+  state_summary:
+    label_support_min: 0.60
+    min_case_cells: 50
+    min_case_donors: 2
+    min_cells_per_sample_unit_state: 5
+    min_case_sample_units: 4
+    min_state_support_median: 0.75
